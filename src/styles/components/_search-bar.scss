@@ -1,0 +1,11 @@
+.search-bar {
+  button {
+    border: 1px solid $color-main;
+    padding: 0.5rem 1rem;
+  }
+
+  input {
+    border: 1px solid $color-main;
+    border-right: none;
+  }
+}

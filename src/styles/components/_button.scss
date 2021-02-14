@@ -1,0 +1,19 @@
+.top--btn {
+  border: none;
+  padding: 0.5rem 0;
+  background-color: $color-white;
+  border: 1px solid $color-main;
+
+  &:last-child {
+    border-top-right-radius: 1rem;
+  }
+
+  &:first-child {
+    border-top-left-radius: 1rem;
+  }
+
+  &.top-btn__on {
+    background-color: $color-main;
+    color: $color-white;
+  }
+}
